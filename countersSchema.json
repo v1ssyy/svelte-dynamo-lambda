@@ -1,0 +1,17 @@
+{
+  "TableName": "counters",
+  "KeySchema": [
+    {
+      "KeyType": "HASH",
+      "AttributeName": "name"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "name",
+      "AttributeType": "S"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}
+
